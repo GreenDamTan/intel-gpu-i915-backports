@@ -81,7 +81,7 @@ struct drm_printer;
 	param(int, fastboot, -1, 0600) \
 	param(int, enable_dpcd_backlight, -1, 0600) \
 	param(unsigned int, lmem_size, 0, 0400) \
-	param(unsigned int, max_vfs, 0, 0400) \
+	param(unsigned int, max_vfs, 7, 0400) \
 	param(unsigned long, vfs_flr_mask, ~0, IS_ENABLED(CPTCFG_DRM_I915_DEBUG_IOV) ? 0600 : 0) \
 	param(int, force_alloc_contig, 0, 0400) \
 	param(unsigned int, page_sz_mask, 0, 0600) \
